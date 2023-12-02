@@ -14,3 +14,23 @@ function info() {
 
 ReactDOM.render(info(), document.getElementById('root'));
 
+ReactDOM.render(
+    <div>
+        <h1>Hi, I am learning React!</h1>
+        <p>This is my third day.</p>
+    </div>, 
+    document.getElementById('root')
+);
+
+// write a menu using React
+const menu = (
+    <div>
+        <h1>Menu</h1>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+        </ul>
+    </div>
+)
+
+ReactDOM.render(menu, document.getElementById('root'));
