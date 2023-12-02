@@ -33,4 +33,6 @@ const menu = (
     </div>
 )
 
-ReactDOM.render(menu, document.getElementById('root'));
+document.getElementById('root').append(menu);
+// ReactDOM.render(menu, document.getElementById('root'));
+
